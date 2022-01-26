@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root "records#index"
+  post "espeasy", to: "esp_easy#create"
 end
