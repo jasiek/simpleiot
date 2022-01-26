@@ -82,5 +82,4 @@ test:
 production:
   <<: *default
   database: simpleiot_production
-  username: simpleiot
   password: <%= ENV["SIMPLEIOT_DATABASE_PASSWORD"] %>
